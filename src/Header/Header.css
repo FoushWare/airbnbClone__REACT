@@ -1,0 +1,49 @@
+/** @format */
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	z-index: 100;
+	width: 100%;
+}
+.header__icon {
+	object-fit: contain;
+	height: 100px;
+	margin-left: 20px;
+}
+.header__center {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	max-width: fit-content;
+	border: 1px solid lightgray;
+	padding: 10px;
+	border-radius: 999px;
+}
+.header__center > input {
+	border: none;
+	outline: 0;
+	padding: 10px;
+}
+.header__right {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-right: 80px;
+	width: 15vw;
+}
+.header__right > p {
+	border: 1px solid lightgray;
+	padding: 10px;
+	width: fit-content;
+	white-space: nowrap;
+	border-radius: 999px;
+	margin-right: 5px;
+}
+.header__right > p:hover {
+	background: black;
+	color: white;
+}
